@@ -47,6 +47,7 @@
         background-color: white;
         box-shadow: 0px 0px 5px black;
     }
+
     h2{
         padding:12px;
         font-family: monospace;
@@ -56,6 +57,9 @@
     }
     .cat>div{
         background-color: white;
+        padding:15px;
+        margin:5px;
+    border: 15px inset palevioletred;
 
     }
     .cat>div:hover{
@@ -92,45 +96,44 @@ h4{
             </div>
             <div class="col-12">
             <p>
-                This Website is created to test or practice your basic knowledge in the particular field. 
-                The categories contains the basic school level multiple choice question which'll helps you to build your basic knowledge strong.</p> 
+               This platform is crafted for testing and refining your basic understanding in various subjects. Our categories feature school-level multiple-choice questions, providing an opportunity to fortify your fundamental knowledge. Enjoy the quiz and enhance your basic understanding!.</p> 
         </div>
         </div>
         <div class="row br cat_box mt-5 mb-5">
             <div class="col-12 h_"><h2>Categories</h2></div>
             <div class="col-12 mt-2">
                 <div class="row justify-content-center cat">
-                    <div class="col-md-4 col-sm-3 text-center br">
+                    <div class="col-md-3 col-sm-3 text-center br">
                         <a href="{% url 'quiz' 'gk' %}">
                         <img class="img-fluid" src="https://img.icons8.com/color/96/000000/storytelling.png"/>
                         <h4 class="mt-3">GK</h4>
                     </a>
                     </div>
-                    <div class="col-md-4 col-sm-3 text-center br">
+                    <div class="col-md-3 col-sm-3 text-center br">
                         <a href="{% url 'quiz' 'youtube' %}">
                         <img class="img-fluid" src="https://img.icons8.com/color/96/000000/youtube-play.png"/>
                         <h4 class="mt-3">Youtube</h4>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-3 text-center br">
+                    <div class="col-md-3 col-sm-3 text-center br">
                         <a href="{% url 'quiz' 'sports' %}">
                         <img class="img-fluid" src="https://img.icons8.com/color/96/000000/trophy.png"/>
                         <h4 class="mt-3">Sports</h4>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-3 text-center br">
+                    <div class="col-md-3 col-sm-3 text-center br">
                         <a href="{% url 'quiz' 'maths' %}">
                         <img src="https://img.icons8.com/external-prettycons-flat-prettycons/94/000000/external-maths-education-prettycons-flat-prettycons-2.png"/>
                         <h4 class="mt-3">Maths</h4>
                         </a>
                     </div>
-                    <div class="col-md-4 col-sm-3 text-center br">
+                    <div class="col-md-3 col-sm-3 text-center br">
                         <a href="{% url 'quiz' 'geography' %}">
                         <img src="https://img.icons8.com/color/96/000000/globe--v1.png"/>
                         <h4 class="mt-3">Geography</h4>
                     </a>
                     </div>
-                    <div class="col-md-4 col-sm-3 text-center br">
+                    <div class="col-md-3 col-sm-3 text-center br">
                         <a href="{% url 'quiz' 'science' %}">
                         <img src="https://img.icons8.com/doodle/96/000000/biotech--v1.png"/>
                          <h4 class="mt-3">Science</h4>
